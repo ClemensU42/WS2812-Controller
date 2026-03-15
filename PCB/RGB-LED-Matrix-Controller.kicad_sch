@@ -2,9 +2,61 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 4ea8e992-e61d-43a0-b3eb-1a98ca8754c2)
+	(uuid "4ea8e992-e61d-43a0-b3eb-1a98ca8754c2")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 34.29 27.94)
+		(size 30.48 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "6da48b10-31fc-4a1d-aa67-b287a4eeadff")
+		(property "Sheetname" "USB Connector"
+			(at 34.29 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_connector.kicad_sch"
+			(at 34.29 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_DATA_BUS" input
+			(at 64.77 33.02 0)
+			(uuid "e3e04678-3b2d-4f07-8c70-0f08fa311ead")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "RGB-LED-Matrix-Controller"
+				(path "/4ea8e992-e61d-43a0-b3eb-1a98ca8754c2"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
